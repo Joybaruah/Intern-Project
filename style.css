@@ -1,0 +1,403 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+body {
+    background: black;
+}
+
+/* Component 1 */
+
+.component-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-img {
+    position: relative;
+    height: 90vh;
+    margin: 1rem 0 0 0;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+#icon-png {
+    position: absolute;
+    height: 40vh;
+}
+
+/* Component 2 */
+
+.component-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-img-2 {
+    position: relative;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+#comp-bg-2 {
+    position: absolute;
+    height: 58vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 13rem;
+}
+
+#comp-bg-3 {
+    position: absolute;
+    margin-bottom: 25rem;
+    width: 100px;
+}
+
+/* TEXT */
+
+#hurry {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Arial;
+    margin: 0 8rem 5rem 0;
+}
+
+#hurry-2 {
+    position: absolute;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: initial;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 7rem 1rem 0;
+}
+
+/* BUTTONS */
+
+.btn-1 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    margin-top: 20rem;
+    border: none;
+    background: orange;
+    border-radius: 7px;
+    box-shadow: -2px 2px 10px black;
+    /* BUTTON TEXT*/
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: -1px 1px 1px black;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.btn-2 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    margin-top: 25rem;
+    border: 1px solid orange;
+    background: white;
+    border-radius: 7px;
+    /* BUTTON TEXT*/
+    font-family: sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.btn-3 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    margin-top: 30rem;
+    border: 1px solid orange;
+    background: white;
+    border-radius: 7px;
+    /* BUTTON TEXT*/
+    font-family: sans-serif;
+    color: black;
+    font-size: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.btn :is(span) {
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn:hover {
+    width: 15.1%;
+    height: 4.1vh;
+}
+
+/* Component 3 */
+
+.component-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-img-3 {
+    position: relative;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+#comp-bg-4 {
+    position: absolute;
+    height: 38.5vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 21.5rem;
+    }
+
+#comp-bg-5 {
+    position: absolute;
+    margin-bottom: 25rem;
+    width: 120px;
+}
+
+/* Component 3 */
+
+.login-text {
+    font-family: sans-serif;
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 12rem 10rem 0 0;
+}
+
+.component-3 p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 40rem;
+    letter-spacing: 1px;
+}
+
+.btn-4 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid orange;
+    margin: 16rem 0 0 0.5rem;
+    padding: 5px;
+}
+
+.button :is(img){
+    width: 8%;
+    float: left;
+}
+
+.button:hover {
+    width: 15.1%;
+    height: 4.1vh;
+}
+
+.btn-5 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid orange;
+    margin: 21rem 0 0 0.5rem;
+    padding: 5px;
+}
+
+.btn-6 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid orange;
+    margin: 26rem 0 0 0.5rem;
+    padding: 5px;
+}
+
+.btn-7 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid orange;
+    margin: 31rem 0 0 0.5rem;
+    padding: 5px;
+}
+
+
+
+/* Component 4*/
+
+.component-4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-img-4 {
+    position: relative;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+#comp-bg-6 {
+    position: absolute;
+    height: 39vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 22rem;
+    }
+
+#comp-bg-7 {
+    position: absolute;
+    margin-bottom: 24rem;
+    width: 125px;
+}
+
+.login-text2 {
+    font-family: sans-serif;
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 6rem 10rem 0 0;
+}
+
+.otp-text {
+    font-family: sans-serif;
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20rem 6.5rem 0 0;
+}
+
+.label1 {
+    position: absolute;
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 10rem 5rem 0 0;
+}
+
+.btn-9 {
+    position: absolute;
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 28rem 6rem 0 0;
+    color: orange;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.input1 {
+    position: absolute;
+    width: 15%;
+    height: 3.5vh;
+    margin: 13rem 0 0 0.5rem;
+    border: 1px solid orange;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding: 0 0 0 4px;
+}
+
+.input2 {
+    position: absolute;
+    width: 15%;
+    height: 3.5vh;
+    margin: 25rem 0 0 0.5rem;
+    border: 1px solid orange;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding: 0 0 0 14px;
+    text-decoration: underline;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn-8 {
+    position: absolute;
+    width: 15%;
+    height: 4vh;
+    margin: 33rem 0 0 0.5rem;
+    border: none;
+    background: orange;
+    border-radius: 7px;
+    box-shadow: -2px 2px 7px black;
+    /* BUTTON TEXT*/
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: -1px 1px 1px black;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.btn-8:hover {
+    width: 15.1%;
+    height: 4.3vh;
+}
+
+/* Display */
+
+.active {
+    display: none;
+}
